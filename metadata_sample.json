@@ -1,0 +1,15 @@
+{
+    "name": "Instap Card | Legendary",
+    "description": "Instap Device Card. Know more on https://instap.co",
+    "attributes": [
+        {
+            "trait_type": "type",
+            "value": "Legendary"
+        },
+        {
+            "trait_type": "multiplier",
+            "value": 1.6
+        }
+    ],
+    "image": "https://instap.mypinata.cloud/ipfs/QmVDXZ4sE1nQiRLPcaXGdN869dQHKvyNwBLMVq85R5cfh7"
+}
