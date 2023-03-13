@@ -6,7 +6,7 @@ const cors = require('cors');
 require('dotenv').config();
 
 const middlewares = require('./middlewares');
-const api = require('./api');
+const mint = require('./mint');
 
 const app = express();
 
@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
   });
 });
 
-app.use('/api/v1', api);
+app.use('/mint', mint);
 
 app.use(middlewares.notFound);
 app.use(middlewares.errorHandler);

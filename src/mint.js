@@ -1,7 +1,7 @@
 const express = require('express');
 
 const router = express.Router();
-const middlewares = require('../middlewares');
+const middlewares = require('./middlewares');
 
 
 require('dotenv').config();
@@ -15,7 +15,7 @@ console.log(ethers.providers)
 const provider = new ethers.providers.AlchemyProvider('goerli', API_KEY)
 
 // Get contract ABI file
-const contract = require("../../InstapCardAbi.json");
+const contract = require("../InstapCardAbi.json");
 
 // Create a signer
 const privateKey = process.env.PRIVATE_KEY

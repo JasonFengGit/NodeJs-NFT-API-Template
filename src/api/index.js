@@ -1,6 +1,6 @@
 const express = require('express');
 
-const mint = require('./mint');
+const mint = require('../mint');
 
 const router = express.Router();
 
